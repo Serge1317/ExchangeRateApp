@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ExchangeRate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Splash</string>
+
+    <!--    strings for cardView -->
+    <string name="name">Название</string>
+    <string name="buying">Покупка</string>
+    <string name="selling">Продажа</string>
+    <string name="currency">USD</string>
+    <string name="value">20</string>
+</resources>
