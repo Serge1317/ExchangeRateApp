@@ -1,8 +1,10 @@
 package com.example.exchangerate.model.cash
 
+import com.example.exchangerate.model.ItemMoneyInterface
+
 data class CashItem(
-    val ccy: String, // код валюты
-    val base_ccy: String, // код национальной валюты
-    val buy: String,
-    val sale: String
-)
+    override val ccy: String,
+    override val base_ccy: String,
+    override val buy: String,
+    override val sale: String
+): ItemMoneyInterface

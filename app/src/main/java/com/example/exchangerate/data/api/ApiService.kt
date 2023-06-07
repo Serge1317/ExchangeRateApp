@@ -1,5 +1,6 @@
 package com.example.exchangerate.data.api
 
+import com.example.exchangerate.model.ItemMoneyInterface
 import com.example.exchangerate.model.bycard.ByCard
 import com.example.exchangerate.model.cash.Cash
 import retrofit2.Response

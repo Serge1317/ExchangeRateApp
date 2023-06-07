@@ -1,4 +1,7 @@
 package com.example.exchangerate.model.bycard
 
-class ByCard: ArrayList<ByCardItem>() {
+import com.example.exchangerate.model.ItemMoney
+import com.example.exchangerate.model.ItemMoneyInterface
+
+class ByCard: ArrayList<ItemMoney>() {
 }

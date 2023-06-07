@@ -4,6 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.exchangerate.data.repository.Repository
+import com.example.exchangerate.model.ItemMoneyInterface
 import com.example.exchangerate.model.cash.Cash
 import kotlinx.coroutines.launch
 import retrofit2.Response
