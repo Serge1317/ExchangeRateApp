@@ -2,14 +2,14 @@ package com.example.exchangerate.screens.second
 
 import android.os.Bundle
 import android.view.View
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.exchangerate.R
-import com.example.exchangerate.screens.BaseFragment
 import com.example.exchangerate.screens.BaseFragmentAdapter
 import kotlinx.android.synthetic.main.fragment_second.view.*
 
 
-class SecondFragment : BaseFragment(R.layout.fragment_second) {
+class SecondFragment : Fragment(R.layout.fragment_second) {
 
     private val model: SecondFragmentModel by lazy {
         ViewModelProvider(this)[SecondFragmentModel::class.java];

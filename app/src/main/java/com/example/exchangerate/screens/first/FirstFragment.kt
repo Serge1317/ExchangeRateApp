@@ -2,14 +2,14 @@ package com.example.exchangerate.screens.first
 
 import android.os.Bundle
 import android.view.View
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.exchangerate.R
-import com.example.exchangerate.screens.BaseFragment
 import com.example.exchangerate.screens.BaseFragmentAdapter
 import kotlinx.android.synthetic.main.fragment_first.view.*
 
 
-class FirstFragment : BaseFragment(R.layout.fragment_first) {
+class FirstFragment : Fragment(R.layout.fragment_first) {
 
     private val model: FirstFragmentModel by lazy{
         ViewModelProvider(this)[FirstFragmentModel::class.java]

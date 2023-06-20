@@ -7,14 +7,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.exchangerate.R
 import com.example.exchangerate.model.ItemMoney
-import com.example.exchangerate.model.ItemMoneyInterface
-import com.example.exchangerate.model.bycard.ByCard
-import com.example.exchangerate.model.cash.Cash
-import com.example.exchangerate.model.cash.CashItem
 import kotlinx.android.synthetic.main.item_money_layout.view.*
 
 class BaseFragmentAdapter: RecyclerView.Adapter<BaseFragmentAdapter.BaseHolder>() {
-
 
     private var list = emptyList<ItemMoney>();
 
