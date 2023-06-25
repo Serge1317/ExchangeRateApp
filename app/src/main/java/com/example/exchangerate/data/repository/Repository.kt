@@ -5,14 +5,8 @@ import com.example.exchangerate.model.ItemMoneyList
 import retrofit2.Response
 
 class Repository {
-//    suspend fun getCashRate(): Response<Cash>{
-//        return RetrofitInstance.api.getCashMoney();
-//    }
-//    suspend fun getByCardRate(): Response<ByCard>{
-//        return RetrofitInstance.api.getByCardMoney()
-//    }
     /**
-     * @param flag: for the cash
+     * @param flag: for the cash - 0, by card - 1;
      */
     suspend fun getRate(flag: Int): Response<ItemMoneyList>{
         return if(flag == 0) RetrofitInstance.api.getCashMoney()

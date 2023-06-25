@@ -13,10 +13,22 @@
         <action
             android:id="@+id/action_splashFragment_to_rootFragment"
             app:destination="@id/rootFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_noNetworkFragment"
+            app:destination="@id/noNetworkFragment" />
     </fragment>
     <fragment
         android:id="@+id/rootFragment"
         android:name="com.example.exchangerate.screens.root.RootFragment"
         android:label="fragment_root"
         tools:layout="@layout/fragment_root" />
+    <fragment
+        android:id="@+id/noNetworkFragment"
+        android:name="com.example.exchangerate.screens.nonetwork.NoNetworkFragment"
+        android:label="fragment_no_network"
+        tools:layout="@layout/fragment_no_network" >
+        <action
+            android:id="@+id/action_noNetworkFragment_to_splashFragment"
+            app:destination="@id/splashFragment" />
+    </fragment>
 </navigation>

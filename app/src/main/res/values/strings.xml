@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">ExchangeRate</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Splash</string>
+
+    <string name="no_network">Нету сети</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="cash_rate">Наличный курс</string>
+    <string name="bycard_rate">Безналичный курс</string>
 
     <!--    strings for cardView -->
     <string name="name">Название</string>

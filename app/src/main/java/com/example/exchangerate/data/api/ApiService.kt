@@ -4,6 +4,8 @@ import com.example.exchangerate.model.ItemMoneyList
 import retrofit2.Response
 import retrofit2.http.GET
 
+// https://api.privatbank.ua/#p24/exchange
+
 interface ApiService {
     @GET("p24api/pubinfo?json&exchange&coursid=5")
     suspend fun getCashMoney(): Response<ItemMoneyList>
